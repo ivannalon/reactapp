@@ -1,5 +1,7 @@
+import { Post } from "./Post";
+
 export function App() {
   return ( 
-    <h1>hello word</h1>
+    <Post author="Ivan"/>
   )
 }
