@@ -2,6 +2,9 @@ export function Post(props){
   console.log(props)
 
   return (
-    <h1>{props.author}</h1>
-  ) 
+    <>
+      <h2>{props.author}</h2>
+      <p>{props.content}</p>
+    </>
+  )
 }
